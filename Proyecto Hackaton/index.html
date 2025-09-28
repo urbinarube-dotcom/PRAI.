@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <link rel="icon" href="../Imagenes/2.png">
+  <title>PRAI - Plataforma de inclusión</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 25px;
+      margin: 0;
+      color: #0b3a53;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #333;
+      border-bottom: 2px solid #962753;
+      
+    }
+    nav a:hover,
+    nav a.link2 {
+      color: #333;
+      
+    }
+
+    /* Hero */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 10%;
+      flex: 1;
+    }
+
+    .hero-text {
+      flex: 1;
+      padding-right: 40px;
+    }
+
+    .hero-text h2 {
+      font-size: 36px;
+      color: #962753;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      margin-bottom: 20px;
+      font-size: 25px;
+    }
+
+
+
+    .hero img {
+      flex: 1;
+      max-width: 450px;
+      border-radius: 8px;
+    }
+
+    /* Footer */
+    footer {
+      background: #962753;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    @media(max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      .hero-text {
+        padding: 0;
+      }
+      .hero img {
+        margin-top: 20px;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>PRAI Plataforma y red de apoyo integral para la inclusión</h1>
+    <nav>
+      <a href="#" class="active">Inicio</a>
+      <a href="../Sobre Nosotros.html">Sobre nosotros</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScJ4hyMgWeBp8ca8DtYG4bY1JGV_pMotoGTdqXm_hUJFjrtog/viewform?usp=dialog">Encuesta</a>
+      <a href="../Talleres.html">Talleres</a>
+      <a href="#" class="link2">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <img src="../Imagenes/2.png" width="200" height="250">
+      <h2>PRAI inclusión para un futuro mejor</h2>
+      <p>¡Bienvenidos a PRAI, la plataforma que brinda apoyo integral a estudiantes del politécnico con bajos recursos para lograr su inclusión y éxito académico!</p>
+
+    </div>
+    <img src="../Imagenes/Captura_de_pantalla_2025-09-27_221148-removebg-preview.png" alt="">
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 PRAI - Plataforma y red de apoyo integral para la inclusión
+  </footer>
+</body>
+</html>
